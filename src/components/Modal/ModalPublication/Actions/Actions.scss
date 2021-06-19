@@ -1,0 +1,21 @@
+@import '../../../../scss/index.scss';
+
+.actions{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+
+    i{
+        font-size: 15px !important;
+        cursor: pointer;
+        transition: all 0.3s;
+        &:hover{
+            color:rgb(247, 17, 17);
+            transition: all 0.3s;
+        }
+    }
+    .live-active{
+        color:rgb(247, 17, 17);
+    }
+}

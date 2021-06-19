@@ -1,0 +1,38 @@
+@import '../../../scss/index.scss';
+
+.list-users{
+    display: flex;
+    flex-direction: column;
+    &__not-users{
+        text-align: center;
+        font-size: 17px;
+        padding: 20px 0;
+    }
+    &__user{
+        display: flex;
+        align-items: center;
+        margin: 10xp 15px;
+        cursor: pointer;
+        margin: 10px 0;
+        padding: 10px;
+        border-bottom: 1px solid $border-grey;
+        img{
+            margin-right: 15px !important;
+            margin-left: 3px !important;
+            width: 3em;
+            height: 3em;
+        }
+        p{
+            margin: 0;
+            font-size: 13px;
+
+            &:first-of-type{
+                color: black;
+                font-weight: bold;
+            }
+            &:last-of-type{
+                color: $font-grey;
+            }
+        }
+    }
+}

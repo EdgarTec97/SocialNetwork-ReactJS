@@ -1,0 +1,30 @@
+@import '../../../../scss/index.scss';
+
+.comments {
+    height: calc(100% - 95px);
+    overflow-y: scroll;
+  
+    .comment {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      border-bottom: 1px solid $border-grey;
+      color: $font-dark;
+  
+      img {
+        margin-right: 15px !important;
+        height: 40px !important;
+        width: 40px !important;
+        border-radius: 500rem;
+      }
+  
+      p {
+        margin: 0;
+  
+        &:first-of-type {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+  

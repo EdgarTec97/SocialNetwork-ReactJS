@@ -1,0 +1,9 @@
+@import '../../../scss/index.scss';
+
+.modal-publication{
+    &_right{
+        padding: 0 !important;
+        overflow: hidden !important;
+        margin: 0 !important;
+    }
+}

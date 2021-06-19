@@ -1,0 +1,38 @@
+@import '../../../scss/index.scss';
+
+.search-users{
+    .ui.left.icon.input{
+        width: 100%;
+    }
+
+    .results{
+        max-height: 60vh;
+        overflow: scroll;
+    }
+
+    &__item{
+        display: flex;
+        align-items: center;
+        .ui.image{
+            width: 35px !important;
+            height: 35px !important;
+            border-radius: 50% !important;
+            margin-right: 20px;
+        }
+        .direction{
+            flex-direction: column;
+        }
+        p{
+            margin: 0;
+            color: $font-dark;
+            display: flex;
+            flex-direction: column;
+            &:first-of-type{
+                font-weight: bold;
+            }
+            &:last-of-type{
+                color: $font-grey;
+            }
+        }
+    }
+}
